@@ -1,32 +1,40 @@
-# React + TypeScript + Vite
+# portfolio-v1
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+The first production iteration of the developer portfolio for Gohar Rehman. Built with TypeScript, semantic HTML5, and responsive CSS, showcasing core software engineering projects, backend architecture concepts, and professional background.
 
-Currently, two official plugins are available:
+## Architecture and Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Language**: TypeScript, HTML5, CSS3
+* **Build / Bundler**: Native ES Modules
+* **Deployment**: GitHub Pages / Netlify
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Responsive Multi-Viewport Layout**: Tailored viewports from 320px mobile screens to ultra-wide displays.
+* **Interactive Project Showcase**: Filterable project gallery with live demo and repository links.
+* **Verified Credentials Section**: Catalog of computer science coursework and professional certifications.
+* **Lightweight Performance**: Zero heavy UI frameworks, providing instantaneous page navigation.
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### Installation
+```bash
+git clone https://github.com/itsgoharrehman/portfolio-v1.git
+cd portfolio-v1
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Running Locally
+```bash
+npx serve .
+```
+
+## Maintainer
+
+* **Gohar Rehman**
+* GitHub: [@itsgoharrehman](https://github.com/itsgoharrehman)
+* Email: `goharrehmanfsd260@gmail.com`
+* Website: [itsgoharrehman.netlify.app](https://itsgoharrehman.netlify.app/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
